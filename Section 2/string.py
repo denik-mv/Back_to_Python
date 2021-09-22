@@ -1,0 +1,21 @@
+print('C:\\User\\Folder')
+print(r'C:\User\Folder')
+print('Последо\n\tвательности')
+hi = 'Hello, guys'
+print(hi)
+print(hi[1], hi[-1])
+new_hi = 'and girls'
+print(new_hi)
+print(new_hi[1:], new_hi[0:3], sep='\n')
+print('***********')
+print(hi + ' ' + new_hi)
+print('%s %s' % (hi, new_hi))
+print('{} {}'.format(hi, new_hi))
+print(f'{hi} {new_hi}')
+print('***********')
+print(f'"l" in {hi} - {hi.count("l")}')
+print(hi.capitalize(), hi.upper(), hi.lower(), sep=' - ')
+print(' '.isspace(), ''.isspace())
+print('***********')
+if ' ':     # if '': будет False
+    print(True)
