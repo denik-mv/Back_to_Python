@@ -53,4 +53,3 @@ while win(field, xo, player):
         print_field()
         break
     print_field()
-print('Check')
